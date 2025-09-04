@@ -1,0 +1,55 @@
+{
+    "version": 1,
+    "name": "FlipperInputActions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "20625a60-2094-4d27-969d-d330f990e8c1",
+            "actions": [
+                {
+                    "name": "Flipper_Left",
+                    "type": "Button",
+                    "id": "e268109d-90e2-4df1-9270-d007825411b5",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Flipper_Right",
+                    "type": "Button",
+                    "id": "f10e99fd-6f9f-4f00-8ddb-8ed9d6f0522f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1e7ef460-dd32-4f70-bb44-f84a89226b28",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Flipper_Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2867557a-3a10-449d-a283-12b9599583f5",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Flipper_Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
