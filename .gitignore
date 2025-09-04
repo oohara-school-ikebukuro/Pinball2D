@@ -1,0 +1,58 @@
+# ======================
+# Unity Generated Folders
+# ======================
+[Ll]ibrary/
+[Tt]emp/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Bb]in/
+[Oo]bj/
+
+# ======================
+# Visual Studio
+# ======================
+.vs/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# ======================
+# Unity Specific
+# ======================
+*.unitypackage
+*.apk
+*.aab
+*.app
+
+# Addressables
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Crash Reports
+sysinfo.txt
+
+# ======================
+# OS / Misc
+# ======================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+*.swp
+*.lock
+*.orig
+
+# ======================
+# Optional (Unity Collaborate/Plastic SCM)
+# ======================
+/[Uu]serSettings/
+.plastic/
