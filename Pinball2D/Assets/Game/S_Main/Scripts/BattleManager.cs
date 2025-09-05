@@ -4,6 +4,7 @@ public class BattleManager : MonoBehaviour
 {
     // 敵の的が入っている、Transform
     [SerializeField] private Transform enemyTargets;
+    [SerializeField] private BattleUIManager battleUIManager;
 
     bool isGameEnd = false;
 
@@ -16,7 +17,10 @@ public class BattleManager : MonoBehaviour
         if(enemyTargets.childCount == 0)
         {
             isGameEnd = true;
-            Debug.Log("全ての的を破壊できました");
+            // Debug.Log("全ての的を破壊できました");
+
+            // ゲームクリアUIを表示します。
+            battleUIManager.ShowGameClear();
         }
     }
 }
