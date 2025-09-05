@@ -3,6 +3,7 @@ using UnityEngine;
 [RequireComponent(typeof(Collider2D))]
 public class EnemyTarget : MonoBehaviour
 {
+    [SerializeField] private GameObject root;
 
     // ボールが当たったら、ログを出すよ
     private void OnCollisionEnter2D(Collision2D collision)
@@ -10,6 +11,6 @@ public class EnemyTarget : MonoBehaviour
         // Debug.Log("なんか当たったな");
 
         // ボールが当たったら、ジョージ消して
-        Destroy(gameObject);
+        Destroy(root);
     }
 }

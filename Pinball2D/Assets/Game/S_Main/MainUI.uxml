@@ -1,0 +1,9 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="root" style="flex-grow: 0; position: relative; top: 369px; left: auto; background-color: rgba(103, 103, 103, 0.53); flex-shrink: 1; width: 1079px;">
+        <ui:Label text="GameClear" name="GameClearText" style="font-size: 128px; align-self: center;" />
+        <ui:VisualElement name="Time" style="flex-grow: 0; flex-direction: row; align-self: center;">
+            <ui:Label text="Time : " name="TimeText" style="font-size: 96px;" />
+            <ui:Label text="9999" name="TimeValue" style="font-size: 96px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
